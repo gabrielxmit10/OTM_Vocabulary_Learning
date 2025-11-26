@@ -1,0 +1,53 @@
+
+[general]
+n_books = -1
+# Says the number of books to be processed.
+# If (n_books is < number of books in the books folder)
+  # only the first n_books will be processed (in alphanumerical order).
+# If (n_books is >= number of books in the books folder OR -1 
+  # all books will be processed.
+
+n_books_to_read = 5
+# Number of books to read out of the n_books.
+# If (n_books_to_read is >= n_books) or -1 
+  # all n_books will be read.
+
+language = "en"
+# Language of the books to be processed.
+# Supported languages: 
+  # "en" (English), 
+  # "pt" (Portuguese), 
+  # "de" (German)
+
+vocab_known = true
+# If true, the txt in vocab_path will be considered as Known vocabulary.
+# If false, the txt in vocab_path will be considered as Unknown vocabulary. 
+
+
+[paths]
+books_path = "./books_folder"
+# Path to the folder containing the books to be processed.
+# By default, it is set to "./books_folder".
+vocab_path = "./vocab_folder"
+# Path to the folder where the vocabulary files will be saved.
+# By default, it is set to "./vocab_folder".
+output_path = "./output_folder"
+# Path to the folder where the txt with the progrms output will be saved.
+# By default, it is set to "./output_folder".
+# If not specified (output_path = ""), the program will just print the output to the console.
+
+
+[restrictions]
+solver_time_limit = -1
+# Time limit for the solver in seconds.
+# This is NOT the time limit for the whole program execution, just for the solver part.
+# If set to -1, there is no time limit.
+
+# # IDK IF I WILL DO THIS ONE YET
+# ordered_books = []
+# # List of lists of books filenames or integer indexed that must be read in the given order.
+# # That is, if ordered_books = [["book1.txt", "book2.txt"], [0, 5, 7]], 
+#   # book1.txt must be read before book2.txt, 
+#   # and the book with index 0 (order presented in books_path's folder) must be read before the book with index 5, which must be read before the book with index 7.
+# # If ordered_books = [], there are no restrictions on the order of reading the books.
+

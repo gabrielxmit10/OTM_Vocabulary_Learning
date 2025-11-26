@@ -1,0 +1,8 @@
+
+These are all the discovered words in the books you chose to read for your given language:
+    word1 word2 word3 ...
+
+These are the words not considered for learning (names, made up words, etc.):
+    wordA wordB wordC ...
+
+# Make them all separated by spaces like above. Not commas or anything else
