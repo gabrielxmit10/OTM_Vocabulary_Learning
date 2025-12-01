@@ -8,7 +8,7 @@ n_books = 10
   # all books will be processed.
 # n_books must be a value >= 1 or -1.
 
-n_books_to_read = 2
+n_books_to_read = 5
 # Number of books to read out of the n_books.
 # If (n_books_to_read is >= n_books) or -1 
   # all n_books will be read.

@@ -1,0 +1,139 @@
+These are all the words for learning for your given language, Portuguese (pt), based on your vocabulary and 10 book files.
+You chose that the words in your vocabulary file are considered as KNOWN.
+
+In total, we found 205 to learn out of the 1001 considered words in these books:
+
+------------------------------------------------------------------------------------------------------------------------
+
+Book 0 - Chapter_01.txt (16 words):
+
+    These are the 16 words to learn in this book:
+
+        aconselhar carreiro desencorajado digerir digestão esclarecido gramático gravura insucesso jiboia mastigar nado pilotar podar relance vário
+
+    These are the 10 words you will learn for sure if you read this book:
+
+        carreiro digerir esclarecido gravura jiboia mastigar nado pilotar relance vário
+
+------------------------------------------------------------------------------------------------------------------------
+
+Book 1 - Chapter_02.txt (20 words):
+
+    These are the 20 words to learn in this book:
+
+        arregalado capim carreiro chifre conserto delir desencorajado desmontar desobedecer fadiga gramático habitado inclinar jiboia náufrago ousar pane rabiscar replicar sedutor
+
+    These are the 14 words you will learn for sure if you read this book:
+
+        arregalado capim chifre conserto delir fadiga gramático habitado inclinar jiboia náufrago pane replicar sedutor
+
+------------------------------------------------------------------------------------------------------------------------
+
+Book 2 - Chapter_03.txt (14 words):
+
+    These are the 14 words to learn in this book:
+
+        asteroide balançar chocar clarão contemplar estaca humildemente intrigado mil podar pronunciado suar vir vislumbrar
+
+    These are the 9 words you will learn for sure if you read this book:
+
+        asteroide chocar contemplar estaca humildemente intrigado mil podar vir
+
+------------------------------------------------------------------------------------------------------------------------
+
+Book 3 - Chapter_04.txt (24 words):
+
+    These are the 24 words to learn in this book:
+
+        amolar aquarela asteroide astrônomo casaca colecionar corro delir dessar envelhecido estojo exclamar gerânio habitar hesitar jiboia narrar passável seiscentos suar superficialmente telescópio tentativo vir
+
+    These are the 17 words you will learn for sure if you read this book:
+
+        amolar asteroide astrônomo casaca colecionar corro dessar envelhecido gerânio habitar hesitar narrar passável suar superficialmente telescópio vir
+
+------------------------------------------------------------------------------------------------------------------------
+
+Book 4 - Chapter_05.txt (40 words):
+
+    These are the 40 words to learn in this book:
+
+        aconselhar advertir arbusto asteroide atravancar baobá bastar caprichar cismar colhido comedir contemplar decifrar dessar distração doçura entranha espreguiçar estada habitado habituar iminência infestado inofensivo manada matinal moralista numeroso podar ponhar protelar rabanete rachar riste roseira sabiamente suar suspeitar timidamente vir
+
+    These are the 16 words you will learn for sure if you read this book:
+
+        aconselhar arbusto baobá bastar contemplar decifrar dessar estada habitado iminência infestado manada ponhar protelar riste sabiamente
+
+------------------------------------------------------------------------------------------------------------------------
+
+Book 5 - Chapter_06.txt (7 words):
+
+    These are the 7 words to learn in this book:
+
+        bastar contemplar distração doçura estada ponhar riste
+
+    These are the 5 words you will learn for sure if you read this book:
+
+        bastar contemplar estada ponhar riste
+
+------------------------------------------------------------------------------------------------------------------------
+
+Book 6 - Chapter_07.txt (26 words):
+
+    These are the 26 words to learn in this book:
+
+        afrouxar arbusto basto cogumelo consolar contemplar corar curvado delir desatarraxar embalar focinheira fossar graxo inchar ingênuo martelado nado pane parafuso podar pálido rer rodeio sacudir soluçar
+
+    These are the 13 words you will learn for sure if you read this book:
+
+        cogumelo consolar delir embalar focinheira inchar ingênuo nado pane podar pálido sacudir soluçar
+
+------------------------------------------------------------------------------------------------------------------------
+
+Book 7 - Chapter_08.txt (47 words):
+
+    These are the 47 words to learn in this book:
+
+        alegrar amarrotado aposento arbusto atordoado atormentar baobá basto bocejar brotar broto contraditório cravo despenteado docemente doentio encabulado enternecido envolvente escutado esmero esplendor exalar fileira miraculoso molhar murchar nado ornado perfumar podar pressentir pétala redoma regador relva remorso retrucar suar suavemente tender ternura toalete tolo tossir vaidoso vir
+
+    These are the 16 words you will learn for sure if you read this book:
+
+        baobá basto contraditório despenteado docemente enternecido envolvente escutado nado perfumar redoma remorso retrucar suavemente vaidoso vir
+
+------------------------------------------------------------------------------------------------------------------------
+
+Book 8 - Chapter_09.txt (20 words):
+
+    These are the 20 words to learn in this book:
+
+        baobá cômodo delicadeza delir exasperante fagulha ingenuamente lareiro larva rebento redoma regar resfriado revolver revolvido rotineiro tolo tossir vir vulcânico
+
+    These are the 14 words you will learn for sure if you read this book:
+
+        cômodo delicadeza delir exasperante ingenuamente larva redoma resfriado revolver revolvido rotineiro tolo tossir vir
+
+------------------------------------------------------------------------------------------------------------------------
+
+Book 9 - Chapter_10.txt (52 words):
+
+    These are the 52 words to learn in this book:
+
+        aborrecer afligir apressar arminho asteroide basear bocejar bocejo cansar costumar delir desobediência detentor enrubescido espantado exclamar falto fossar gaguejar gaivota habitado hesitar inclinar indagar indisciplina instruir interrogar intimidar majestosamente majestoso maravilhar minúsculo monarca nado obedecido olhadela ousar parta podar ponhar preparativo púrpura raridade rebelar reinar replicar retrucar suar suspirar súdito tender timidamente
+
+    These are the 33 words you will learn for sure if you read this book:
+
+        aborrecer apressar arminho asteroide basear bocejar cansar delir desobediência enrubescido espantado exclamar falto gaguejar habitado indagar indisciplina instruir intimidar majestosamente maravilhar minúsculo monarca nado obedecido ousar parta podar rebelar reinar replicar súdito timidamente
+
+------------------------------------------------------------------------------------------------------------------------
+
+For all books together (205 words):
+
+    These are the 205 words to learn in all the 10 books:
+
+        aborrecer aconselhar advertir afligir afrouxar alegrar amarrotado amolar aposento apressar aquarela arbusto arminho arregalado asteroide astrônomo atordoado atormentar atravancar balançar baobá basear bastar basto bocejar bocejo brotar broto cansar capim caprichar carreiro casaca chifre chocar cismar clarão cogumelo colecionar colhido comedir conserto consolar contemplar contraditório corar corro costumar cravo curvado cômodo decifrar delicadeza delir desatarraxar desencorajado desmontar desobedecer desobediência despenteado dessar detentor digerir digestão distração docemente doentio doçura embalar encabulado enrubescido enternecido entranha envelhecido envolvente esclarecido escutado esmero espantado esplendor espreguiçar estaca estada estojo exalar exasperante exclamar fadiga fagulha falto fileira focinheira fossar gaguejar gaivota gerânio gramático gravura graxo habitado habitar habituar hesitar humildemente iminência inchar inclinar indagar indisciplina infestado ingenuamente ingênuo inofensivo instruir insucesso interrogar intimidar intrigado jiboia lareiro larva majestosamente majestoso manada maravilhar martelado mastigar matinal mil minúsculo miraculoso molhar monarca moralista murchar nado narrar numeroso náufrago obedecido olhadela ornado ousar pane parafuso parta passável perfumar pilotar podar ponhar preparativo pressentir pronunciado protelar pálido pétala púrpura rabanete rabiscar rachar raridade rebelar rebento redoma regador regar reinar relance relva remorso replicar rer resfriado retrucar revolver revolvido riste rodeio roseira rotineiro sabiamente sacudir sedutor seiscentos soluçar suar suavemente superficialmente suspeitar suspirar súdito telescópio tender tentativo ternura timidamente toalete tolo tossir vaidoso vir vislumbrar vulcânico vário
+
+    These are the 120 words you will learn for sure if you read all 10 books:
+
+        aborrecer aconselhar amolar apressar arbusto arminho arregalado asteroide astrônomo baobá basear bastar basto bocejar cansar capim carreiro casaca chifre chocar cogumelo colecionar conserto consolar contemplar contraditório corro cômodo decifrar delicadeza delir desobediência despenteado dessar digerir docemente embalar enrubescido enternecido envelhecido envolvente esclarecido escutado espantado estaca estada exasperante exclamar fadiga falto focinheira gaguejar gerânio gramático gravura habitado habitar hesitar humildemente iminência inchar inclinar indagar indisciplina infestado ingenuamente ingênuo instruir intimidar intrigado jiboia larva majestosamente manada maravilhar mastigar mil minúsculo monarca nado narrar náufrago obedecido ousar pane parta passável perfumar pilotar podar ponhar protelar pálido rebelar redoma reinar relance remorso replicar resfriado retrucar revolver revolvido riste rotineiro sabiamente sacudir sedutor soluçar suar suavemente superficialmente súdito telescópio timidamente tolo tossir vaidoso vir vário
+
+------------------------------------------------------------------------------------------------------------------------
+
