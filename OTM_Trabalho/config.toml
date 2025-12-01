@@ -1,22 +1,25 @@
 
 [general]
-n_books = -1
+n_books = 10
 # Says the number of books to be processed.
 # If (n_books is < number of books in the books folder)
   # only the first n_books will be processed (in alphanumerical order).
 # If (n_books is >= number of books in the books folder OR -1 
   # all books will be processed.
+# n_books must be a value >= 1 or -1.
 
-n_books_to_read = 5
+n_books_to_read = 2
 # Number of books to read out of the n_books.
 # If (n_books_to_read is >= n_books) or -1 
   # all n_books will be read.
+# n_books_to_read must be a value >= 1 or -1.
 
-language = "en"
+language = "pt"
 # Language of the books to be processed.
 # Supported languages: 
   # "en" (English), 
   # "pt" (Portuguese), 
+# Planned support for future versions:
   # "de" (German)
 
 vocab_known = true
@@ -38,7 +41,7 @@ output_path = "./output_folder"
 
 
 [restrictions]
-solver_time_limit = -1
+solver_time_limit = 3000
 # Time limit for the solver in seconds.
 # This is NOT the time limit for the whole program execution, just for the solver part.
 # If set to -1, there is no time limit.
