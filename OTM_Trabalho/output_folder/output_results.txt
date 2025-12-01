@@ -1,36 +1,39 @@
-You have 10 books and want to read 2.
+You have 10 books and want to read 5.
 Here are the results for your choice.
 
-You can learn up to 52 words out of 205 unknown words found in these 10 books.
+You can learn up to 101 words out of 205 unknown words found in these 10 books.
 (We aren't sure if this is the maximum possible, but it's what our solver found, given your time limit = 3000 seconds).
 
 ------------------------------------------------------------------------------------------------------------------------
 
 Order to read the books in:
 
-    Order with numbers: [3, 9]
+    Order with numbers: [3, 4, 8, 9, 7]
 
     Order with names:
         Chapter_04.txt (book 3) -> Position 0
-        Chapter_10.txt (book 9) -> Position 1
+        Chapter_05.txt (book 4) -> Position 1
+        Chapter_09.txt (book 8) -> Position 2
+        Chapter_10.txt (book 9) -> Position 3
+        Chapter_08.txt (book 7) -> Position 4
 
 ------------------------------------------------------------------------------------------------------------------------
 
-With this order you will learn 52 words in all books. These words are:
+With this order you will learn 101 words in all books. These words are:
 
-    aborrecer amolar apressar arminho asteroide astrônomo basear bocejar cansar casaca colecionar corro delir desobediência dessar detentor enrubescido envelhecido espantado exclamar falto fossar gaguejar gerânio habitado habitar hesitar indagar indisciplina instruir intimidar majestosamente maravilhar minúsculo monarca nado narrar obedecido ousar parta passável podar rebelar reinar replicar suar superficialmente suspirar súdito telescópio timidamente vir
+    aborrecer aconselhar amolar apressar arbusto arminho asteroide astrônomo atravancar baobá basear bastar basto bocejar cansar casaca colecionar colhido contemplar contraditório corro cômodo decifrar delicadeza delir desobediência despenteado dessar detentor docemente encabulado enrubescido enternecido envelhecido envolvente escutado esmero espantado esplendor estada exasperante exclamar falto fossar gaguejar gaivota gerânio habitado habitar hesitar iminência indagar indisciplina infestado ingenuamente instruir intimidar larva majestosamente manada maravilhar minúsculo monarca moralista nado narrar obedecido ousar parta passável perfumar podar ponhar protelar pétala rebelar rebento redoma reinar remorso replicar resfriado retrucar revolver revolvido riste rotineiro sabiamente suar suavemente superficialmente suspirar súdito telescópio ternura timidamente toalete tolo tossir vaidoso vir
 
 ------------------------------------------------------------------------------------------------------------------------
 
-With this order you will NOT learn 153 words. These words are:
+With this order you will NOT learn 104 words. These words are:
 
-    aconselhar advertir afligir afrouxar alegrar amarrotado aposento aquarela arbusto arregalado atordoado atormentar atravancar balançar baobá bastar basto bocejo brotar broto capim caprichar carreiro chifre chocar cismar clarão cogumelo colhido comedir conserto consolar contemplar contraditório corar costumar cravo curvado cômodo decifrar delicadeza desatarraxar desencorajado desmontar desobedecer despenteado digerir digestão distração docemente doentio doçura embalar encabulado enternecido entranha envolvente esclarecido escutado esmero esplendor espreguiçar estaca estada estojo exalar exasperante fadiga fagulha fileira focinheira gaivota gramático gravura graxo habituar humildemente iminência inchar inclinar infestado ingenuamente ingênuo inofensivo insucesso interrogar intrigado jiboia lareiro larva majestoso manada martelado mastigar matinal mil miraculoso molhar moralista murchar numeroso náufrago olhadela ornado pane parafuso perfumar pilotar ponhar preparativo pressentir pronunciado protelar pálido pétala púrpura rabanete rabiscar rachar raridade rebento redoma regador regar relance relva remorso rer resfriado retrucar revolver revolvido riste rodeio roseira rotineiro sabiamente sacudir sedutor seiscentos soluçar suavemente suspeitar tender tentativo ternura toalete tolo tossir vaidoso vislumbrar vulcânico vário
+    advertir afligir afrouxar alegrar amarrotado aposento aquarela arregalado atordoado atormentar balançar bocejo brotar broto capim caprichar carreiro chifre chocar cismar clarão cogumelo comedir conserto consolar corar costumar cravo curvado desatarraxar desencorajado desmontar desobedecer digerir digestão distração doentio doçura embalar entranha esclarecido espreguiçar estaca estojo exalar fadiga fagulha fileira focinheira gramático gravura graxo habituar humildemente inchar inclinar ingênuo inofensivo insucesso interrogar intrigado jiboia lareiro majestoso martelado mastigar matinal mil miraculoso molhar murchar numeroso náufrago olhadela ornado pane parafuso pilotar preparativo pressentir pronunciado pálido púrpura rabanete rabiscar rachar raridade regador regar relance relva rer rodeio roseira sacudir sedutor seiscentos soluçar suspeitar tender tentativo vislumbrar vulcânico vário
 
 ------------------------------------------------------------------------------------------------------------------------
 
 Books not read:
 
-    Chapter_01.txt (book 0), Chapter_02.txt (book 1), Chapter_03.txt (book 2), Chapter_05.txt (book 4), Chapter_06.txt (book 5), Chapter_07.txt (book 6), Chapter_08.txt (book 7), Chapter_09.txt (book 8)
+    Chapter_01.txt (book 0), Chapter_02.txt (book 1), Chapter_03.txt (book 2), Chapter_06.txt (book 5), Chapter_07.txt (book 6)
 
 ------------------------------------------------------------------------------------------------------------------------
 

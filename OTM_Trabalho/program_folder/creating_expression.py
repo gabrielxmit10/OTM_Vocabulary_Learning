@@ -4,7 +4,7 @@
 # ### Importing and Configurations
 # (config file variables and variables from the discover python files)
 
-# In[1]:
+# In[18]:
 
 
 # Importing Cell
@@ -42,7 +42,7 @@ from z3 import simplify as z3_simplify
 
 
 
-# In[ ]:
+# In[19]:
 
 
 # Load Config file variables (from config.toml)
@@ -90,7 +90,7 @@ books_dir = resolve_config_path(books_path) # Used for listing book files, which
 # books_dir
 
 
-# In[4]:
+# In[20]:
 
 
 # Get books from files (handles n_books_to_read)
@@ -143,7 +143,7 @@ n_books, n_books_to_read, list_of_books = book_arguments
 # list_of_books will not be used (in this notebook)
 
 
-# In[5]:
+# In[21]:
 
 
 # Imports from discover_words_to_learn
@@ -176,7 +176,7 @@ n_of_books = len(B)
 n_of_unknown_words = len(d)
 
 
-# In[6]:
+# In[22]:
 
 
 # Handles variables some variables (mainly used in k function)
@@ -205,7 +205,7 @@ def handle_a(b,s_d,w):
 # ### Helper Functions
 # (simplifying, string manipulation, vector cleaning, printing vectors etc.)
 
-# In[7]:
+# In[23]:
 
 
 def transform_x_to_p(s,p_to_x=0):
@@ -245,7 +245,7 @@ def transform_x_to_p(s,p_to_x=0):
         
 
 
-# In[8]:
+# In[24]:
 
 
 def tokenize(expr):
@@ -322,7 +322,7 @@ def tokenize(expr):
     return tokens2
 
 
-# In[9]:
+# In[25]:
 
 
 def prefix_to_infix_function(tokens):
@@ -482,7 +482,7 @@ def infix_to_prefix_function(tokens): # Makes AND, OR into And(), Or() # Created
     return build_vector(ast)
 
 
-# In[10]:
+# In[26]:
 
 
 def eq_to_eqeq(s): # transforms string "Eq(p[t],b)" to "p[t] == b" # Made by Copilot
@@ -512,7 +512,7 @@ def eq_to_eqeq(s): # transforms string "Eq(p[t],b)" to "p[t] == b" # Made by Cop
     return f"{left} == {right}"
 
 
-# In[11]:
+# In[27]:
 
 
 # Cleaning Vector Function
@@ -727,7 +727,7 @@ def is_always_false(e, domain):
 
 
 
-# In[12]:
+# In[28]:
 
 
 # clean vector functions with @lru_cache
@@ -753,7 +753,7 @@ def clean_vector_z3_cached(expr_tuple, t_max, w_max, is_l=0):
     return tuple(clean_vector_z3(list(expr_tuple), t_max, w_max, is_l))
 
 
-# In[13]:
+# In[29]:
 
 
 def print_vector(vec): # prints vectors values with " " in between them
@@ -762,7 +762,7 @@ def print_vector(vec): # prints vectors values with " " in between them
     print()  # final newline
 
 
-# In[14]:
+# In[30]:
 
 
 # Function that simplifies if alone in dnf structure (might not be in dnf, so we have to be careful) (uses vectors in z3 form (prefix)) (just removes in first Or, so not recursive)
@@ -872,7 +872,7 @@ def simplify_or_full(tokens):
     return v
 
 
-# In[15]:
+# In[31]:
 
 
 def andify(vector_of_ands): # vector_of_ands is a vector of vectors
@@ -932,7 +932,7 @@ def vector_x_eq_int(b, t):
 # ### Creating Expressions (main part)
 # (Using/Creating: K, k, l[w][t], m[w][t] etc.)
 
-# In[16]:
+# In[32]:
 
 
 def K_reread(b, w, t): # Can I learn word w from book b at time t?
@@ -1010,7 +1010,7 @@ def K_reread(b, w, t): # Can I learn word w from book b at time t?
     return v_prime
 
 
-# In[17]:
+# In[33]:
 
 
 # def k(b, s_d, omega, t): # Do I know word omega in sentence s_d of b at time t?
@@ -1203,7 +1203,7 @@ def k(b, s_d, omega, t): # Do I know word omega in sentence s_d of b at time t?
     return v_prime
 
 
-# In[19]:
+# In[34]:
 
 
 l = [[[] for t in range(n_of_books_to_read)] for w in range(n_of_unknown_words)]
@@ -1365,11 +1365,11 @@ for t in range(n_of_books_to_read): # -#-#
 
 
 
-        # if __name__ == "__main__":
-        print(f"{counter}. l[{w}][{t}] = ", end='')
-        print_vector(l[w][t])
-        print()
-        counter += 1
+        if __name__ == "__main__": # Print only in notebook
+            print(f"{counter}. l[{w}][{t}] = ", end='')
+            print_vector(l[w][t])
+            print()
+            counter += 1
 
 
 
@@ -1388,7 +1388,7 @@ for t in range(n_of_books_to_read): # -#-#
 print(f"Total time: {round(total_time,5)}") # verify run time
 
 
-# In[20]:
+# In[35]:
 
 
 # Copying l and m to immutable structures (tuples of tuples)
@@ -1404,7 +1404,7 @@ l_copy = deep_tuple(l)
 m_copy = deep_tuple(m)
 
 
-# In[21]:
+# In[36]:
 
 
 intermediate_amount_of_variables = 0
@@ -1426,7 +1426,7 @@ for t in range(n_of_books_to_read):
 print(f"Amount of inter vars l[w][t]: {intermediate_amount_of_variables}")
 
 
-# In[22]:
+# In[37]:
 
 
 # Results Display (shows all l[w][t] vectors) 
@@ -1443,7 +1443,7 @@ print(f"Amount of inter vars l[w][t]: {intermediate_amount_of_variables}")
 # ### Preparing for Solver and Solving
 # (Changes in structure to pass to solver, creating model, and solving with z3)
 
-# In[23]:
+# In[38]:
 
 
 # Definitions for Translating
@@ -1452,7 +1452,7 @@ print(f"Amount of inter vars l[w][t]: {intermediate_amount_of_variables}")
 rp = n_of_books-1
 
 
-# In[24]:
+# In[39]:
 
 
 def l_brackets_to_underline(s): # transforms string "l[w][t]" to "l_w_t" # Made by Copilot
@@ -1483,7 +1483,7 @@ def l_brackets_to_underline(s): # transforms string "l[w][t]" to "l_w_t" # Made 
         return s
 
 
-# In[25]:
+# In[40]:
 
 
 def transform_for_create_l_variable(s):
@@ -1493,7 +1493,7 @@ def transform_for_create_l_variable(s):
     else: return s
 
 
-# In[26]:
+# In[41]:
 
 
 from z3 import BoolVal # REMOVE, put on top with other imports
@@ -1555,7 +1555,7 @@ def build_z3_expression(tokens): # Builds Z3 expression from vectors # Made by C
     return result
 
 
-# In[27]:
+# In[42]:
 
 
 # Translating (with z3 in mind for now)
@@ -1621,7 +1621,7 @@ obj = opt.maximize(f)
 None
 
 
-# In[ ]:
+# In[43]:
 
 
 # Solving (with z3 in mind for now)
@@ -1676,7 +1676,7 @@ if model is not None:
 
 
 
-# In[30]:
+# In[44]:
 
 
 # Storing the solution
@@ -1702,7 +1702,7 @@ if result == sat:
             solution_not_learned_ws.append(w)
 
 
-# In[36]:
+# In[45]:
 
 
 # Displaying Results of Solution
