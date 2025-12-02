@@ -420,160 +420,160 @@ words_learned_for_sure_united = sorted(list(all_alone_words_set))
 # - words_to_learn_united
 # - words_learned_for_sure_united
 
-
 # ----------------------- REMOVE START -----------------------
-# # # Prints sentences from books with words to learn as strings
-# # for b in range(len(B)):
-# #     print(f"Book {b} - {D[b]}" + "-------------------------------------------")
-# #     for s_d in range(len(B[b])):
-# #         print([d[w] for w in B[b][s_d]])
+if __name__ == "__main__":
+    # # # Prints sentences from books with words to learn as strings
+    # # for b in range(len(B)):
+    # #     print(f"Book {b} - {D[b]}" + "-------------------------------------------")
+    # #     for s_d in range(len(B[b])):
+    # #         print([d[w] for w in B[b][s_d]])
 
-# Prints B structure
-for b in range(len(B)):
-    print(f"Book {b} - {D[b]} ({len(B[b])} sents): \n")
-    for s_d in range(len(B[b])):
-        print("     ",s_d, ": ", B[b][s_d])
+    # Prints B structure
+    for b in range(len(B)):
+        print(f"Book {b} - {D[b]} ({len(B[b])} sents): \n")
+        for s_d in range(len(B[b])):
+            print("     ",s_d, ": ", B[b][s_d])
+        print()
     print()
-print()
-# print()
-# # Prints set_of_ks
-# print("\nSet of ks:")
-# for k in set_of_ks:
-#     print(f"    {k} : {set_of_ks[k]}")
+    # print()
+    # # Prints set_of_ks
+    # print("\nSet of ks:")
+    # for k in set_of_ks:
+    #     print(f"    {k} : {set_of_ks[k]}")
 
-# Prints a
-# print("\nAppearences (a):")
-# for key in a:
-#     print(f"    a{key} : {a[key]}")
+    # Prints a
+    # print("\nAppearences (a):")
+    # for key in a:
+    #     print(f"    a{key} : {a[key]}")
 
-# # Prints how many times word d[w] appears in books
-# d_2 = [[0 for b in range(n_books)] for _ in range(len(d))]
-# for b in range(n_books):
-#     for s_d in range(len(B[b])):
-#         for w in B[b][s_d]:
-#             d_2[w][b] += 1
-# print("\nWord appears in book (d_2):")
-# # for w in range(len(d)):
-# #     print(f"    {d[w]} : {d_2[w]}")
-# # Shows only the top words that appear the most in books
-# top = 30
-# word_appearances = []
-# for w in range(len(d)):
-#     total_appearances = sum(d_2[w])
-#     word_appearances.append((total_appearances, w))
-# word_appearances.sort(reverse=True)
-# print(f"\nTop {top} words that appear the most in books:")
-# for i in range(top):
-#     # print(f"    {d[w]} : {d_2[w]}")
-#     total_appearances, w = word_appearances[i]
-#     print(f"    {i+1}. {d[w]} : {d_2[w]}, Total = {total_appearances}, Avg = {total_appearances/n_books:.2f}")
-
+    # # Prints how many times word d[w] appears in books
+    # d_2 = [[0 for b in range(n_books)] for _ in range(len(d))]
+    # for b in range(n_books):
+    #     for s_d in range(len(B[b])):
+    #         for w in B[b][s_d]:
+    #             d_2[w][b] += 1
+    # print("\nWord appears in book (d_2):")
+    # # for w in range(len(d)):
+    # #     print(f"    {d[w]} : {d_2[w]}")
+    # # Shows only the top words that appear the most in books
+    # top = 30
+    # word_appearances = []
+    # for w in range(len(d)):
+    #     total_appearances = sum(d_2[w])
+    #     word_appearances.append((total_appearances, w))
+    # word_appearances.sort(reverse=True)
+    # print(f"\nTop {top} words that appear the most in books:")
+    # for i in range(top):
+    #     # print(f"    {d[w]} : {d_2[w]}")
+    #     total_appearances, w = word_appearances[i]
+    #     print(f"    {i+1}. {d[w]} : {d_2[w]}, Total = {total_appearances}, Avg = {total_appearances/n_books:.2f}")
 
 
-# print()
-# print()
-# maximum_in_d_2 = max([max(d_2[w]) for w in range(len(d))])
-# print(f"Maximum times a word appears in a book: {maximum_in_d_2}")
-# print()
+
+    # print()
+    # print()
+    # maximum_in_d_2 = max([max(d_2[w]) for w in range(len(d))])
+    # print(f"Maximum times a word appears in a book: {maximum_in_d_2}")
+    # print()
 
 
-# # Prints 5 biggest sizes of sentences in books and what sentence and book they are from)
-# print("\n5 Biggest sentence sizes in books:")
-# biggest_sentence_sizes = []
-# for b in range(n_books):
-#     for s_d in range(len(B[b])):
-#         sentence_size = len(B[b][s_d])
-#         biggest_sentence_sizes.append((sentence_size, b, s_d))
-# biggest_sentence_sizes.sort(reverse=True)
-# print()
-# print()
-# for i in range(5):
-#     size, b, s_d = biggest_sentence_sizes[i]
-#     print(f"    Size ({i+1}): {size}\n      Book {b} - Sentence {s_d}:")
-#     print("        ", [w for w in B[b][s_d]])
-#     print("        ", [d[w] for w in B[b][s_d]])
+    # # Prints 5 biggest sizes of sentences in books and what sentence and book they are from)
+    # print("\n5 Biggest sentence sizes in books:")
+    # biggest_sentence_sizes = []
+    # for b in range(n_books):
+    #     for s_d in range(len(B[b])):
+    #         sentence_size = len(B[b][s_d])
+    #         biggest_sentence_sizes.append((sentence_size, b, s_d))
+    # biggest_sentence_sizes.sort(reverse=True)
+    # print()
+    # print()
+    # for i in range(5):
+    #     size, b, s_d = biggest_sentence_sizes[i]
+    #     print(f"    Size ({i+1}): {size}\n      Book {b} - Sentence {s_d}:")
+    #     print("        ", [w for w in B[b][s_d]])
+    #     print("        ", [d[w] for w in B[b][s_d]])
 
-# set_of_k_tests[b,w] = (sent,value_of_k_test) for key 
-set_of_k_tests = {}
-# # Prints path from number through a's til finds start
-# def k_test(b,s_d,w,first=False):
+    # set_of_k_tests[b,w] = (sent,value_of_k_test) for key 
+    set_of_k_tests = {}
+    # # Prints path from number through a's til finds start
+    # def k_test(b,s_d,w,first=False):
 
-#     if set_of_k_tests.get((b,w),None) is not None:
-#         if set_of_k_tests[b,w][0] == s_d:
-#             print(f"We used stored k_test({b},{s_d},{w})")
-#             return set_of_k_tests[b,w][1]
-        
-
-#     path = []
-#     v_of_ands = []
-#     v_of_ors = []
-#     # current_s_d = s_d
-#     # while current_s_d >= 0:
-#     #     path.append((b,current_s_d,w))
-#     #     if (b,current_s_d,w) in a:
-#     #         current_s_d = a[b,current_s_d,w]
-#     #     else:
-#     #         break
-#     if len(B[b][s_d]) == 1 and B[b][s_d][0] == w:
-#         # print(f"({b},{s_d},{w})")
-#         return _true
-
-#     if w not in B[b][s_d]:
-#         raise ValueError(f"Error in k_test: word {w} not in B[{b}][{s_d}]")
-#     else:
-#         if a.get((b,s_d,w),None) is not None:
-#             if a[b,s_d,w] >= s_d:
-#                 raise ValueError(f"Error in a structure: a[{b},{s_d},{w}] = {a[b,s_d,w]} >= {s_d} = s_d")
-#             # print(f'I (k_test({b},{s_d},{w})) am calling k_test({b},{a[b,s_d,w]},{w})')
-#             # print()
-#             v_of_ors.append(k_test(b,a[b,s_d,w],w))
-#         else:
-#             # NOT
-#             # print(f"({b},{s_d},{omega})")
-#             v_of_ors.append((b,s_d,w))
-#         if first: print(f"WORD W {w} DONE --------------------------------------------\n")
-
-
-#     for omega in B[b][s_d]:
-#         if omega == w: continue
-#         if a.get((b,s_d,omega),None) is not None:
-#             if a[b,s_d,omega] >= s_d:
-#                 raise ValueError(f"Error in a structure: a[{b},{s_d},{omega}] = {a[b,s_d,omega]} >= {s_d} = s_d")
+    #     if set_of_k_tests.get((b,w),None) is not None:
+    #         if set_of_k_tests[b,w][0] == s_d:
+    #             print(f"We used stored k_test({b},{s_d},{w})")
+    #             return set_of_k_tests[b,w][1]
             
-#             # print(f'I (k_test({b},{s_d},{w})) am calling k_test({b},{a[b,s_d,omega]},{omega})')
-#             print()
-#             v_of_ands.append(k_test(b,a[b,s_d,omega],omega))
-#         else:
-#             # NOT
-#             # print(f"({b},{s_d},{omega})")
-#             v_of_ands.append((b,s_d,omega))
-#         if first: print(f"OMEGA {omega} DONE --------------------------------------------\n")
-    
-#     if any([isinstance(item, tuple) or [isinstance(item, tuple)] or item == [] for item in v_of_ands]): v_of_ands = []
-#     if all([item == _true for item in v_of_ands]): v_of_ands = _true
 
-#     path = [v_of_ors,v_of_ands]
-#     if any([item == _true or [_true] for item in path]): path = _true
-#     if all([isinstance(item, tuple) or [isinstance(item, tuple)] or item == [] for item in v_of_ors]): path = []
+    #     path = []
+    #     v_of_ands = []
+    #     v_of_ors = []
+    #     # current_s_d = s_d
+    #     # while current_s_d >= 0:
+    #     #     path.append((b,current_s_d,w))
+    #     #     if (b,current_s_d,w) in a:
+    #     #         current_s_d = a[b,current_s_d,w]
+    #     #     else:
+    #     #         break
+    #     if len(B[b][s_d]) == 1 and B[b][s_d][0] == w:
+    #         # print(f"({b},{s_d},{w})")
+    #         return _true
 
-#     print(f"k_test({b},{s_d},{w}) = {path}".replace(" ", ""))
-#     print()
+    #     if w not in B[b][s_d]:
+    #         raise ValueError(f"Error in k_test: word {w} not in B[{b}][{s_d}]")
+    #     else:
+    #         if a.get((b,s_d,w),None) is not None:
+    #             if a[b,s_d,w] >= s_d:
+    #                 raise ValueError(f"Error in a structure: a[{b},{s_d},{w}] = {a[b,s_d,w]} >= {s_d} = s_d")
+    #             # print(f'I (k_test({b},{s_d},{w})) am calling k_test({b},{a[b,s_d,w]},{w})')
+    #             # print()
+    #             v_of_ors.append(k_test(b,a[b,s_d,w],w))
+    #         else:
+    #             # NOT
+    #             # print(f"({b},{s_d},{omega})")
+    #             v_of_ors.append((b,s_d,w))
+    #         if first: print(f"WORD W {w} DONE --------------------------------------------\n")
 
-#     if set_of_k_tests.get((b,w),None) is None:
-#         set_of_k_tests[b,w] = (s_d,path)
-#     elif set_of_k_tests[b,w][0] < s_d:
-#         set_of_k_tests[b,w] = (s_d,path)
-#     elif set_of_k_tests[b,w][0] == s_d:
-#         pass # keep existing
-#     # elif set_of_k_tests[b,w][0] > s_d:
-#     #     raise ValueError(f"There is a sentence {set_of_k_tests[b,w][0]} stored in set_of_k_tests({b},{w}) that is greater than current sentence {s_d}, which should not happen.")
-#     #     My Bad, this is actually possible
 
-#     if len(set_of_k_tests) > 1500:
-#         raise ValueError(f"Warning: set_of_k_tests has grown too large ({len(set_of_k_tests)} entries). Stopping further k_test calls to prevent memory issues.")
+    #     for omega in B[b][s_d]:
+    #         if omega == w: continue
+    #         if a.get((b,s_d,omega),None) is not None:
+    #             if a[b,s_d,omega] >= s_d:
+    #                 raise ValueError(f"Error in a structure: a[{b},{s_d},{omega}] = {a[b,s_d,omega]} >= {s_d} = s_d")
+                
+    #             # print(f'I (k_test({b},{s_d},{w})) am calling k_test({b},{a[b,s_d,omega]},{omega})')
+    #             print()
+    #             v_of_ands.append(k_test(b,a[b,s_d,omega],omega))
+    #         else:
+    #             # NOT
+    #             # print(f"({b},{s_d},{omega})")
+    #             v_of_ands.append((b,s_d,omega))
+    #         if first: print(f"OMEGA {omega} DONE --------------------------------------------\n")
+        
+    #     if any([isinstance(item, tuple) or [isinstance(item, tuple)] or item == [] for item in v_of_ands]): v_of_ands = []
+    #     if all([item == _true for item in v_of_ands]): v_of_ands = _true
 
-#     return path
+    #     path = [v_of_ors,v_of_ands]
+    #     if any([item == _true or [_true] for item in path]): path = _true
+    #     if all([isinstance(item, tuple) or [isinstance(item, tuple)] or item == [] for item in v_of_ors]): path = []
 
+    #     print(f"k_test({b},{s_d},{w}) = {path}".replace(" ", ""))
+    #     print()
+
+    #     if set_of_k_tests.get((b,w),None) is None:
+    #         set_of_k_tests[b,w] = (s_d,path)
+    #     elif set_of_k_tests[b,w][0] < s_d:
+    #         set_of_k_tests[b,w] = (s_d,path)
+    #     elif set_of_k_tests[b,w][0] == s_d:
+    #         pass # keep existing
+    #     # elif set_of_k_tests[b,w][0] > s_d:
+    #     #     raise ValueError(f"There is a sentence {set_of_k_tests[b,w][0]} stored in set_of_k_tests({b},{w}) that is greater than current sentence {s_d}, which should not happen.")
+    #     #     My Bad, this is actually possible
+
+    #     if len(set_of_k_tests) > 1500:
+    #         raise ValueError(f"Warning: set_of_k_tests has grown too large ({len(set_of_k_tests)} entries). Stopping further k_test calls to prevent memory issues.")
+
+    #     return path
+# ----------------------- REMOVE END -----------------------
 
 
 
